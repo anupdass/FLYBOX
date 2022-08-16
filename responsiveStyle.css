@@ -1,0 +1,90 @@
+@media(max-width:1320px) {
+    .header {
+        position: relative;
+    }
+
+    .hero {
+        padding-top: 40px;
+    }
+
+    /* .hero-right img {
+        width: 40%;
+        position: relative;
+        top: -150px;
+    } */
+
+
+    .navbar {
+        padding: 10px 0px 10px 0;
+        background-color: aqua;
+    }
+
+    .navbar ul {
+        position: absolute;
+        display: block;
+        top: 55px;
+        background-color: aqua;
+        width: 100%;
+        padding-left: 0;
+        margin: 0;
+        text-align: center;
+        display: none;
+        transition: all 1s ease-in;
+    }
+
+    .navbar ul.active {
+        top: 55px;
+        display: block;
+    }
+
+    .navbar ul li {
+        padding: 10px 0;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .signinbtn {
+        display: none;
+    }
+
+    .slogan {
+        padding: 20px;
+    }
+
+    .slogan button {
+        margin-top: 50px;
+        padding: 5px;
+    }
+
+    .quick-link {
+        display: none;
+    }
+}
+
+@media (max-width:900px) {
+    .education {
+        display: none;
+    }
+
+    .hero-right img {
+        display: none;
+    }
+}
+
+@media (max-width:540px) {
+
+    .hero-left h1 {
+        display: none;
+    }
+
+    .hero-left h3 {
+        font-size: 16px;
+    }
+
+    .hero-left p {
+        padding: 0;
+    }
+
+}
